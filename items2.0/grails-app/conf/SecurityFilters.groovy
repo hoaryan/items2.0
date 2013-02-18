@@ -25,7 +25,8 @@ class SecurityFilters {
                 }
             }
         }
-
+ 
+ 
         RESTFilter(controller:'itemREST', action:'*') {
             before = {               
                 log.info("Authorization: " + request.getHeader("Authorization"));

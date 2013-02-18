@@ -370,7 +370,7 @@ class Item {
     }
 
     // wird von asFlatXML benötigt
-    private Set getTags(Item item) {
+    Set getTags(Item item) {
         def results = null
         if(item!=null){
 

@@ -84,6 +84,8 @@ environments {
         grails.logging.jul.usebridge = true
 		grails.serverURL = "http://localhost:8080/${appName}"
         jqueryUi.minified = false
+		//grails.dbconsole.enabled = true
+		//grails.dbconsole.urlRoot = '/dbconsole'
     }
     production {
         grails.logging.jul.usebridge = false
